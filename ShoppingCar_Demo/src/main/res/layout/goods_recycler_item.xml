@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_gravity="center_vertical"
+        android:id="@+id/goodsCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/goodsItem_Img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/goodsItem_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/goodsItem_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥ 99"
+            android:textSize="20sp"
+            android:textColor="#ff0000"/>
+
+        <zhouchaoqun.com.shoppingcar_demo.ui.widget.CalculatorView
+            android:layout_marginTop="@dimen/dp_10"
+            android:id="@+id/CalculatorView"
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+
+        </zhouchaoqun.com.shoppingcar_demo.ui.widget.CalculatorView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
