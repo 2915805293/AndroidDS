@@ -84,4 +84,9 @@ public class CalculatorView extends LinearLayout implements View.OnClickListener
                 break;
         }
     }
-}
+
+
+    public void getTextContent(long num){
+       
+      
+   }
